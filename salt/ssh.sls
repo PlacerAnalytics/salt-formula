@@ -1,3 +1,4 @@
+{%- set tplroot = tpldir.split('/')[0] %}
 {% from "salt/map.jinja" import salt_settings with context %}
 {%- set tplroot = tpldir.split('/')[0] %}
 
